@@ -41,7 +41,7 @@ The LLM is not the bottleneck — the quality of extracted text is.
 
 ```
 liteparse-benchmark/
-├── main.py
+├── parse.py
 ├── requirements.txt
 ├── wipo_pub_rn2021_18e.pdf
 └── README.md
@@ -79,7 +79,7 @@ ollama pull gemma4:e4b
 ## ▶️ Run the Experiment
 
 ```bash
-python main.py
+python parse.py
 ```
 
 ---
